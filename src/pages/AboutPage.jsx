@@ -26,44 +26,54 @@ function AboutPage() {
                             <h4>Qui sommes-nous ?</h4>
                             <h2>Une référence d'excellence en soins dentaires modernes</h2>
                             <p>
-                                Fondé en 2015, le Cabinet Dentaire Smile est né d'une volonté claire : offrir des soins dentaires d'excellence, alliant rigueur médicale, innovation technologique et approche humaine. Dès ses débuts, le cabinet s'est donné pour mission de placer le patient au cœur de notre exercice, en bâtissant un espace où rigueur médicale, innovation technologique et approche bienveillante se rencontrent.
+                                Fondé en 2015, le Cabinet Dentaire Smile incarne une vision exigeante de la médecine bucco-dentaire, fondée sur quatre piliers essentiels : précision clinique, technologie de pointe, humanisme et disponibilité.
                             </p>
                             
                             {isExpanded && (
                                 <div className="history-expanded">
                                     <p>
-                                        Aujourd'hui, forte de <strong>6 praticiens disponibles 24h/24 et 7j/7</strong>, secondés par une équipe d'assistantes dévouées, Smile garantit une continuité de soins — de jour comme de nuit — dans un cadre moderne, propre et accueillant.
+                                        Dès sa création, le cabinet a été pensé comme un lieu où le soin dépasse l'acte médical pour devenir une expérience maîtrisée, rassurante et personnalisée. Chaque patient est unique et est accueilli avec attention, respect et discrétion.
                                     </p>
                                     
                                     <p>
-                                        Pour raccourcir au maximum votre parcours de soins, nous avons réuni en un seul lieu :
+                                        Le Cabinet Dentaire Smile s'appuie aujourd'hui sur six praticiens, disponibles 24h/24 et 7j/7, accompagnés par une équipe d'assistantes qualifiées et engagées. Cette organisation garantit une continuité de soins absolue, dans un environnement moderne, calme et parfaitement sécurisé.
+                                    </p>
+                                    
+                                    <p>
+                                        Afin d'offrir une prise en charge fluide, précise et efficiente, nous avons réuni en un seul lieu :
                                     </p>
                                     <ul>
-                                        <li>5 unités de soins entièrement équipées</li>
-                                        <li>un laboratoire de prothèses dentaires</li>
-                                        <li>une unité de radiologie numérique</li>
+                                        <li>Cinq unités de soins autonomes et entièrement équipées</li>
+                                        <li>Un laboratoire de prothèses dentaires intégré et numérisé</li>
+                                        <li>Une unité d'imagerie odonto-stomatologique numérique de dernière génération (CBCT 3D)</li>
+                                        <li>Une salle de stérilisation aux normes internationales, garantissant une prévention rigoureuse de toute contamination croisée</li>
                                     </ul>
                                     
                                     <p>
-                                        Ce plateau technique complet nous permet une prise en charge globale, précise et efficace, allant de l'odontologie générale aux spécialités telles que l'implantologie, l'orthodontie ou les soins esthétiques.
+                                        Cette infrastructure de pointe nous permet d'intervenir avec exigence et précision, de l'odontologie générale aux disciplines spécialisées telles que l'implantologie, l'orthodontie et la dentisterie esthétique.
                                     </p>
                                     
                                     <p>
-                                        Notre philosophie repose sur deux engagements fondamentaux :<br />
-                                        <strong>prévenir plutôt que guérir</strong>, en accompagnant chaque patient dans une démarche de santé bucco-dentaire durable ;<br />
-                                        et <strong>redonner le sourire</strong>, au sens propre comme au figuré — pour que chacun reparte apaisé, confiant et satisfait.
+                                        Deux principes fondamentaux guident notre pratique quotidienne :
+                                    </p>
+                                    <p>
+                                        <strong>Anticiper, prévenir, soulager et préserver</strong>, afin d'inscrire chaque patient dans une démarche personnalisée et durable de santé bucco-dentaire.
+                                    </p>
+                                    <p>
+                                        <strong>Redonner le sourire</strong>, avec justesse et naturel, pour que chacun reparte serein, confiant et pleinement satisfait.
                                     </p>
                                     
                                     <p>
-                                        Accueil chaleureux, respect de votre temps, écoute active et suivi personnalisé sont les piliers de notre démarche qualité.
+                                        Un accueil attentif, une écoute sincère, le respect absolu de votre temps et un suivi personnalisé définissent l'expérience Smile. Ici, chaque détail est pensé pour votre rassurance, votre confort, votre sécurité et votre tranquillité d'esprit.
                                     </p>
                                     
-                                    <p>
-                                        Au nom de toute l'équipe du Cabinet Dentaire Smile, je vous souhaite la bienvenue. Ici, votre sourire est entre de bonnes mains — expertes, attentives et humaines.
+                                    <p style={{ fontWeight: 'bold', marginTop: '1.5rem' }}>
+                                        Au Cabinet Dentaire Smile<br />
+                                        « On y arrive KO, on en repart OK. »
                                     </p>
                                     
-                                    <p style={{ fontStyle: 'italic', marginTop: '1.5rem' }}>
-                                        Le Dr Boutchouang et l'équipe Smile
+                                    <p style={{ fontStyle: 'italic', marginTop: '1rem' }}>
+                                        Dr Boutchouang & l'équipe Smile
                                     </p>
                                 </div>
                             )}

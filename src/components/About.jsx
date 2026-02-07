@@ -15,11 +15,7 @@ function About() {
                             <span>dentaire</span>
                         </h2>
                         <p className="about-description-refined">
-                            <strong>Au Cabinet Dentaire Smile</strong> nous conjuguons
-                            expertise moderne et accueil chaleureux. Entièrement dédié
-                            au bien-être de toute votre famille, nous allions sécurité,
-                            confort et professionnalisme pour des traitements sur
-                            mesure d'une qualité irréprochable.
+                            <strong>Au Cabinet Dentaire Smile</strong> nous mettons notre savoir-faire au service de votre santé bucco-dentaire dans un cadre accueillant et respectueux. Nous accompagnons chaque patient avec attention, en privilégiant la sécurité, le confort et des soins adaptés à ses besoins.
                         </p>
                         <Link to="/apropos" className="btn-about">Voir plus</Link>
                     </div>
